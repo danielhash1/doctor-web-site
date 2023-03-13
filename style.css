@@ -389,15 +389,19 @@ h2 {
     .hero-container {
         padding-bottom: 5em;
         padding-top: 24.7px;
+          display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .maps-txt {
-        display: inline;
-        box-sizing: unset;
-        order: 1;
+        display: none;
+        position: absolute;
+    
+
     }
 
     .maps-img {
-        order: 2;
+
     }
 }
